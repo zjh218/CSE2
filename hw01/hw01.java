@@ -10,7 +10,7 @@ public class hw01{
      System.out.println("^  ^  ^  ^  ^  ^");
      System.out.println("|-Z--J--H--2--1--8-|");
      System.out.println("v  v  v  v  v  v");
-     System.out.println("This summer, I did absoloutely nothing productive.");
+     System.out.println("aasdasdasdasd");
      
      //test/testest
      }

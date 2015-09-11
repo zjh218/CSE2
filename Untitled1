@@ -1,0 +1,6 @@
+public class Test {
+    public static void main(String[] args) {
+    double mydouble1 = 3.2;
+    double mydouble2 = 4.5;
+    int myvar = (int) mydouble1 + mydouble2;
+    system.out.println(myvar);
