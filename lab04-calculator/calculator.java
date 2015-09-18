@@ -8,20 +8,22 @@ public class calculator{
          int b = scan.nextInt();
          System.out.println("Enter the operator (* / + or -)");
          String o = scan.next();
-         if (o.equals("/")){
-         System.out.println("a/b, or "+a+"/"+b+" is "+(a/b));
-         }
-         else if (o.equals("*")){
-         System.out.println("a*b, or "+a+"*"+b+" is "+(a*b));
-         }
-         else if (o.equals("+")){
-         System.out.println("a+b, or "+a+"+"+b+" is "+(a+b));
-         }
-         else if (o.equals("-")){
-         System.out.println("a/b, or "+a+"-"+b+" is "+(a-b));
-         }
-         else{
-             System.out.println("That was not a valid operator. Please try again.");
+         switch (o){
+             case "/":
+                 System.out.println("a/b, or "+a+"/"+b+" is "+(a/b));
+                 break;
+            case "*":
+                 System.out.println("a/b, or "+a+"/"+b+" is "+(a/b));
+                 break;
+            case "+":
+                 System.out.println("a+b, or "+a+"+"+b+" is "+(a+b));
+                 break;
+            case "-":
+                 System.out.println("a/b, or "+a+"-"+b+" is "+(a-b));
+                 break; 
+            default:
+                 System.out.println("That was not a valid operator. Please try again.");
+                 break;
          }
     }
 }
