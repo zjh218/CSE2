@@ -13,7 +13,7 @@ public class Block{
         double surface2 = height*length;
         double surface3 = width*length;
         double surfaceTotal= 2*(surface1+surface2+surface3);
-        System.out.println("The total volume of a "+length+"x"+height+"x"+width+" block is"+volume);
+        System.out.println("The total volume of a "+length+"x"+height+"x"+width+" block is: "+volume);
         System.out.println("The total surface area is "+surfaceTotal);
     }
 }
