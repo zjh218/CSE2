@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class CalculatorSpecial{
     public static void main (String[] args){
         Scanner scan = new Scanner(System.in);
+        while(true){
         System.out.println("Enter the value for a");
         while (true){
             if (scan.hasNextInt()){
@@ -47,5 +48,12 @@ public class CalculatorSpecial{
                  System.out.println("That was not a valid operator. Please try again.");
                  break;
          }
+         System.out.println("would you like to continue?");
+         String z = scan.next();
+         if (z.equals("n") || z.equals("N")){
+         break;
+         
+         }
+        }
     }
 }
