@@ -31,4 +31,5 @@ public class averageGrade{
             scan.next();
         }
     }
+    public static char getChar(scan)
 }

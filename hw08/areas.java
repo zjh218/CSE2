@@ -50,15 +50,7 @@ public class areas{
     public static int area(int a, int b, int c){
         return (((a+b)*c)/2);// area of a trapezoid
     }
-    public static int getInt (Scanner scan){//take inputs of type integer
-        while (true){
-            if (scan.hasNextInt()){
-                    return scan.nextInt();
-                }
-            System.out.println("That wasn't an option. Try again");
-            scan.next();//clear scanner
-        }
-    }
+    
     public static String getString (Scanner scan){//just to get continuance input
         return scan.next();
     }
