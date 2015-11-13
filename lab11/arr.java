@@ -3,14 +3,14 @@ import java.util.Arrays;
 public class arr{
     public static void main (String [] args){
         Scanner scan = new Scanner(System.in);
-        int[] a = new int[20];
+        int a[] = new int[3]{1, 2, 3};
         int[] b = new int[10];
         int[] c = new int[30];
         int[] temp = new int[20];
-        for (int i = 0; i < 20; i++){
-            a[i] =(int) (Math.random()*100);
-        }
-        for (int j = 0; j < 10; j++){
+       // for (int i = 0; i < 20; i++){
+         //   a[i] =(int) (Math.random()*100);
+        //}
+       /* for (int j = 0; j < 10; j++){
             b[j]=(int)(Math.random()*100);
         }
         temp = sort(a);
@@ -27,13 +27,13 @@ public class arr{
         temp = sort(c);
         c = temp;
         System.out.println(Arrays.toString(c));
-        
+        */
     }
     public static int[] sort (int[] a){
         //Arrays.sort(a);
         int temp;
         for (int i = 1; i < a.length; i++){
-            for (int j = 1; j < a.length-1; j++){
+            for (int j = 1; j < a.length; j++){
                 if (a[j] < a[j-1]){
                     temp = a[j];
                     a[j]= a[j-1];
